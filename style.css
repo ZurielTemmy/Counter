@@ -1,0 +1,38 @@
+body {
+    text-transform: capitalize;
+    height: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, pink, red);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+    text-align: center;
+    justify-content: center;
+    border: 2px solid grey;
+    padding: 120px;
+    font-weight: bold;
+    box-shadow: 3px 3px black;
+}
+.counter {
+    font-size: 80px;
+}
+.btns {
+    padding: 15px;
+    margin: 10px;
+    font-size: larger;
+    font-weight: bolder;
+    border: 1.5px solid black;
+    border-radius: 5px;
+   
+}
+.btns:hover {
+    transition: 0.5s ease-out;
+    background-color: black;
+    color: white;
+}
+.btns:active {
+    border: white 1.5px solid;
+}
